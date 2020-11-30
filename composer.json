@@ -8,7 +8,8 @@
         "php": "^7.1.3",
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.7.*",
-        "laravel/tinker": "^1.0"
+        "laravel/tinker": "^1.0",
+        "majidalaeinia/vandarnovausers": "dev-master"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
@@ -59,9 +60,9 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "repositories": {
-        "majidalaeinia/vandar-nova-users": {
+        "majidalaeinia/vandarnovausers": {
             "type": "path",
-            "url": "/var/www/pd/packages/majidalaeinia/vandar-nova-users"
+            "url": "/var/www/pd/packages/majidalaeinia/VandarNovaUsers"
         }
     }
 }
