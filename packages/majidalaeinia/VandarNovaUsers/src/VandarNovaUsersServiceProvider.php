@@ -3,6 +3,7 @@
 namespace majidalaeinia\VandarNovaUsers;
 
 use Illuminate\Support\ServiceProvider;
+use majidalaeinia\VandarNovaUsers\Console\Commands\ImportVandarNovaUsersCommand;
 
 class VandarNovaUsersServiceProvider extends ServiceProvider
 {
@@ -77,6 +78,8 @@ class VandarNovaUsersServiceProvider extends ServiceProvider
         ], 'vandarnovausers.views');*/
 
         // Registering package commands.
-        // $this->commands([]);
+         $this->commands([
+              ImportVandarNovaUsersCommand::class
+         ]);
     }
 }

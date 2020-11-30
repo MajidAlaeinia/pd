@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'aaa' => 'bbb',
+    'works' => true,
 ];
