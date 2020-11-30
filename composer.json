@@ -57,5 +57,11 @@
         "optimize-autoloader": true
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": {
+        "majidalaeinia/vandar-nova-users": {
+            "type": "path",
+            "url": "/var/www/pd/packages/majidalaeinia/vandar-nova-users"
+        }
+    }
 }
