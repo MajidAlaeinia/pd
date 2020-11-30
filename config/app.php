@@ -150,6 +150,7 @@ return [
         /*
          * Package Service Providers...
          */
+        JeroenG\Packager\PackagerServiceProvider::class,
 
         /*
          * Application Service Providers...
